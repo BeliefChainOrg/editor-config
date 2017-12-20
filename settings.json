@@ -8,7 +8,7 @@
     "no-empty-blocks": false
   },
   "prettier.printWidth": 120,
-  "prettier.arrowParens": "avoid",
+  "prettier.arrowParens": "always",
   "prettier.bracketSpacing": false,
   "prettier.eslintIntegration": true,
   "prettier.singleQuote": true,
