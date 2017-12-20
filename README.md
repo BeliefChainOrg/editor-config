@@ -2,7 +2,7 @@
 
 * add to project
 
-	`git submodule add git@github.com:BeliefChainOrg/belief-chain-website.git .vscode`
+	`git submodule add git@github.com:BeliefChainOrg/editor-config.git .vscode`
 
 * update submodule to latest commit
 
