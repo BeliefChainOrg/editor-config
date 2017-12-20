@@ -2,7 +2,7 @@
 
 * add to project
 
-	`git submodule add git@github.com:cheerfyt/editor-config.git .vscode`
+	`git submodule add git@github.com:BeliefChainOrg/belief-chain-website.git .vscode`
 
 * update submodule to latest commit
 
