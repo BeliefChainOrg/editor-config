@@ -21,6 +21,8 @@
 	"eslint-plugin-import": "^2.8.0",
 	"eslint-plugin-node": "^5.2.1",
 	"eslint-plugin-standard": "^3.0.1"
+	"eslint-plugin-react": "^7.5.1"
+	
 	```
 
 	* more ...
