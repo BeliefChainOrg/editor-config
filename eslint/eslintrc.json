@@ -5,12 +5,35 @@
         "mocha": true,
         "es6": true
     },
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+          "experimentalObjectRestSpread": true,
+          "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": ["react"],
     "globals": {
         "assert": true,
         "artifacts": true,
         "contract": true
     },
     "rules": {
+        // React Jsx
+        "jsx-quotes": ["error", "prefer-double"],
+        "react/jsx-boolean-value": "error",
+        "react/jsx-curly-spacing": ["error", "never"],
+        "react/jsx-equals-spacing": ["error", "never"],
+        "react/jsx-indent": ["error", 2],
+        "react/jsx-indent-props": ["error", 2],
+        "react/jsx-no-duplicate-props": "error",
+        "react/jsx-no-undef": "error",
+        "react/jsx-tag-spacing": ["error", {"beforeSelfClosing": "always"}],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/self-closing-comp": "error",
+
         "comma-dangle": [2, "never"],
         "no-cond-assign": [2, "always"],
         "no-console": 0,
@@ -152,7 +175,6 @@
         "id-length": [2, {"min": 2, "exceptions": ["_"]}],
         "id-match": 0,
         "indent": [2, 2, { "SwitchCase": 1, "VariableDeclarator": 1 }],
-        "jsx-quotes": [2, "prefer-double"],
         "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
         "keyword-spacing": [0, {"before": true, "after": true, "overrides": {}}],
         "linebreak-style": [2, "unix"],
