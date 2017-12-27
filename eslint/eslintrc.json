@@ -236,7 +236,6 @@
         "wrap-regex": 2,
 
         // ES6
-        // NOTE: Some rules which set to 0 are waiting for nodejs' supports, but maybe we still open it for front-end.
         // NOTE: Currently close arrow-body-style as it cannot support one statement with multiline case.
         // "arrow-body-style": [2, "as-needed"],
         "arrow-parens": [2, "always"],
@@ -244,7 +243,12 @@
         "constructor-super": 2,
         "generator-star-spacing": 2,
         "no-class-assign": 2,
-        "no-confusing-arrow": 0,
+        "no-confusing-arrow": [
+          "error",
+          {
+            "allowParens": true
+          }
+        ],
         "no-const-assign": 2,
         "no-dupe-class-members": 2,
         "no-duplicate-imports": "error",
@@ -264,14 +268,14 @@
         "no-this-before-super": 2,
         "no-useless-constructor": 2,
         "no-var": 2,
-        "object-shorthand": [0, "never"],
+        "object-shorthand": ["error", "always", {"ignoreConstructors": false, "avoidQuotes": true}],
         "prefer-arrow-callback": ["error", { "allowNamedFunctions": true }],
         "prefer-const": ["error", {"destructuring": "any"}],
         "prefer-reflect": 0,
-        "prefer-rest-params": 0,
-        "prefer-spread": 0,
+        "prefer-rest-params": 2,
+        "prefer-spread": 2,
         "prefer-template": 2,
-        "require-yield": 0,
+        "require-yield": 2,
         "template-curly-spacing": [2, "never"]
     }
 }
