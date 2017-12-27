@@ -10,6 +10,8 @@
 
 * required:
 
+	* editorconfig for vscode
+
 	* vscode eslint plugin, vscode prettier plugin, vscode solidity plugin
 
 	* package.json devDependencies
@@ -22,7 +24,7 @@
 	"eslint-plugin-node": "^5.2.1",
 	"eslint-plugin-standard": "^3.0.1"
 	"eslint-plugin-react": "^7.5.1"
-	
+
 	```
 
 	* more ...
