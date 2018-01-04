@@ -4,9 +4,21 @@
 
 	`git submodule add git@github.com:BeliefChainOrg/editor-config.git .vscode`
 
+    `git submodule init`
+    `git submodule update`
+
 * update submodule to latest commit
 
 	`git submodule update --remote`
+
+* remove submodule
+
+    `git submodule deinit -f .vscode`
+
+    remove .gitsubmodule rules and `git rm -rf .gitmodules`
+    remove .git/modules/.vscode and `git rm -rf .vscode`
+
+
 
 * required:
 
@@ -24,7 +36,7 @@
 	"eslint-plugin-node": "^5.2.1",
 	"eslint-plugin-standard": "^3.0.1"
 	"eslint-plugin-react": "^7.5.1"
-
+    "eslint-plugin-promise": "^3.6.0"
 	```
 
 	* more ...
