@@ -1,9 +1,18 @@
 {
   "solidity.linter": "solhint",
   "solidity.solhintRules": {
-    "indent": ["error", 4],
-    "quotes": ["error", "double"],
-    "max-line-length": ["error", 120],
+    "indent": [
+      "error",
+      4
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "max-line-length": [
+      "error",
+      120
+    ],
     "no-simple-event-func-name": false,
     "no-empty-blocks": false
   },
@@ -19,5 +28,14 @@
   "eslint.run": "onType",
   "eslint.options": {
     "configFile": ".vscode/eslint/eslintrc.json"
+  },
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/build": true
   }
 }
