@@ -1,7 +1,7 @@
 {
   "stylelint.enable": true,
   "css.validate": false,
-  "scss.validate": false,
+  "scss.validate": true,
 
   "solidity.linter": "solhint",
   "solidity.solhintRules": {
