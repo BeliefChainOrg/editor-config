@@ -228,7 +228,7 @@
     // ignore because react component return log string
     // "operator-linebreak": [2, "before"],
     "padded-blocks": [2, "never"],
-    "quote-props": [2, "consistent"],
+    "quote-props": [2, "as-needed"],
     "quotes": [2, "single", "avoid-escape"],
     // NOTE: Currently we donot use it.
     "require-jsdoc": 0,
