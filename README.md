@@ -43,6 +43,7 @@
     "eslint-plugin-standard": "^3.0.1"
     "eslint-plugin-react": "^7.5.1"
     "eslint-plugin-promise": "^3.6.0"
+    "babel-esli": "^7.2.3"
     ```
 
 * more ...
